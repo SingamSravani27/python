@@ -54,6 +54,7 @@ print(S[-2:-5:-1]) '''
 print(x>5 or x<3  and x==7)'''
 
 
-a=[1,2,3]
+'''a=[1,2,3]
 b=a[:]
-print(a is b, a==b)
+print(a is b, a==b)'''
+print(15&7)

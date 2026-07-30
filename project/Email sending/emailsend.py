@@ -27,7 +27,7 @@ def sinlrEmailSend(to_email:str, subject:str, body:str):
         #quit server
         server.quit()
     except Exception as e:
-        return (f"Something wrong sending am emial to{to email}:{e}")
+        return (f"Something wrong sending am emial to{to_email}:{e}")
 #read inputs
 email=input("Enter Receiver email address:")
 subject=input("Enter email subject:")

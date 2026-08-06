@@ -38,7 +38,7 @@ def SingleEmailSend(to_email_:str, subject:str, body:str):
         return f"Somthing wrong while sending an email to {to_email_}:{e}"
 
 #read inputs
-email = input("Enter Reciver email address:")
-subject = input("Enter email subject:")
-body = input("enter body")
-print(SingleEmailSend(to_email_=email,subject=subject, body=body))
+#email = input("Enter Reciver email address:")
+#subject = input("Enter email subject:")
+#body = input("enter body")
+#print(SingleEmailSend(to_email_=email,subject=subject, body=body))

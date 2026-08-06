@@ -1,4 +1,6 @@
 # DATA BASE
+# import requirements
+from emailsend import SingleEmailSend
 """
 users={
         Account:{
@@ -12,7 +14,7 @@ users={
 """
 
 
-users = {
+'''users = {
     1001: {
         'name': "Sravani",
         'email': "singamsravani410@gmail.com",
@@ -52,6 +54,14 @@ def withdraw(account:int,withdraw_amount:int)->str:
     curr_balance=users[account]['balance']
     if curr_balance>=withdraw_amount:
         users[account]['balance'] -=withdraw_amount
+        ## send email
+        SingleEmailSend(to_email=users[amount['email']],
+                        subject="withdraw Alert",
+                        body=f"{withdraw_amount} withdraw successful and \
+                            current balance is:{users[account]['balance']}"
+                        ) 
+
+
         return f"{withdraw_amount} withdraw successful and \ current balance is:{users[account]['balance']}"
     return "Insufficient Amount"
 
@@ -78,8 +88,17 @@ def Ministatement(account:int):
 
 #logout Function
 def logout():
-     print("Bye Bye Buddy, see you later")
-    
+     print("Bye Bye Buddy, see you later")'''
+
+
+from Login import login
+from Deposit import Deposite
+from Getbalance import balance
+from Logout import logout
+from Ministatement import Ministatement
+from Register import register
+from Transfer import transfer
+from Withdraw import withdraw
 #main
 if __name__ == "__main__":
     print("Welcome to the mini bank")

@@ -1,0 +1,22 @@
+{
+    "Radha": [
+        {
+            "date": "2026-08-11",
+            "category": "Food",
+            "amount": 7676.0,
+            "note": "Lunch"
+        },
+        {
+            "date": "2026-08-11",
+            "category": "Travel",
+            "amount": 329.0,
+            "note": "charges"
+        },
+        {
+            "date": "2026-08-11",
+            "category": "Shopping",
+            "amount": 5000.0,
+            "note": "Cloths"
+        }
+    ]
+}

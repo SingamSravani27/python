@@ -37,7 +37,7 @@ while current_user is None:
         print("Invalid choice")
 
 while True:
-    print("\n===== EXPENSE TRACKER MENU =====")
+    print("\n       EXPENSE TRACKER MENU      ")
     print("1. Add Expense")
     print("2. View Expenses")
     print("3. Edit Expense")

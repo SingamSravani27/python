@@ -3,5 +3,10 @@
         "email": "ssravani0709@gmail.com",
         "password": "1234",
         "budget": 10000.0
+    },
+    "Akki": {
+        "email": "ssravani0709@mail.com",
+        "password": "1234",
+        "budget": 0
     }
 }
